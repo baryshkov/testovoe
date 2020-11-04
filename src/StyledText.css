@@ -1,0 +1,27 @@
+.styled-text {
+  text-align: center;
+  font-size: 48px;
+  background: linear-gradient(
+    0.25turn,
+    rgba(86, 90, 184, 0.61),
+    rgba(121, 124, 183, 0.76),
+    rgba(187, 85, 187, 1),
+    rgba(181, 181, 181, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 0 10px 0;
+}
+
+.alternative {
+  margin-top: 9vw;
+  text-align: center;
+  font-size: 24px;
+  background: linear-gradient(
+    0.25turn,
+    rgba(86, 90, 184, 0.61),
+    rgba(181, 181, 181, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

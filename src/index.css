@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Sochi2014';
+  src: local('Sochi2014'), url(fonts/Sochi2014-Light.ttf) format('truetype');
+}
+
+* {
+  font-family: Sochi2014, 'serif';
+  box-sizing: border-box;
+}
