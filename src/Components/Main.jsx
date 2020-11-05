@@ -4,7 +4,7 @@ import User from './User';
 import StyledText from './StyledText';
 import Answers from './Answers';
 import StyledButton from './StyledButton';
-import { QuizService } from './QuizService';
+import { QuizService } from '../services/QuizService';
 import Timer from './Timer';
 import './Main.css';
 import bridge from '@vkontakte/vk-bridge';
@@ -25,6 +25,7 @@ const MIN_MAX = 999999;
 // 2/11/20 22:30 - 23:17
 // 4/11/20 15:51 - 16:40
 const Main = ({ fetchedUser }) => {
+  console.log(11111);
   const quizService = new QuizService(NUMBER_OF_OPTIONS, MIN_MAX);
 
   const [score, setScore] = useState(0);
